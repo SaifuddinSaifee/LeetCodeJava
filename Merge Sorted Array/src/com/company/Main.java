@@ -10,11 +10,11 @@ public class Main {
         int[] nums2 = {2,5,6};
         int m = nums1.length;
         int n = nums2.length;
-
-        for (int i = 0; i <= n; i++){
-
+        int itt = n;
+        for (int i = 0; i < n; i++) {
+            nums1[itt] = nums2[i];
+            itt++;
         }
-
         System.out.println(Arrays.toString(nums1));
     }
 }
