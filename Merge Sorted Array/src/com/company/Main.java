@@ -12,7 +12,6 @@ public class Main {
         int n = nums2.length;
 
         for (int i = 0; i <= n; i++){
-            
 
         }
 
